@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Batman Rails Demo</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "batman_rails_demo" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div data-yield="main"></div>
+
+<script type="text/javascript">
+  BatmanRailsDemo.run();
+</script>
+
+</body>
+</html>

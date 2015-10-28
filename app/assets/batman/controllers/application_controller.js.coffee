@@ -1,0 +1,1 @@
+class BatmanRailsDemo.ApplicationController extends Batman.Controller
